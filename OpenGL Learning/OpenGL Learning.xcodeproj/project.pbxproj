@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2816966E2C301C0C00B34ABB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2816966D2C301C0C00B34ABB /* main.cpp */; };
 		281696762C301C2D00B34ABB /* libglfw.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 281696752C301C2D00B34ABB /* libglfw.3.4.dylib */; };
 		281696782C301C3300B34ABB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281696772C301C3300B34ABB /* OpenGL.framework */; };
 		2816967B2C30F66800B34ABB /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816967A2C30F66800B34ABB /* libGLEW.2.2.0.dylib */; };
+		286548F52C32D2C200EDDC75 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 286548F32C32D2C200EDDC75 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +27,12 @@
 
 /* Begin PBXFileReference section */
 		2816966A2C301C0C00B34ABB /* OpenGL Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenGL Learning"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2816966D2C301C0C00B34ABB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		281696752C301C2D00B34ABB /* libglfw.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.4.dylib; path = ../../../../../../opt/homebrew/Cellar/glfw/3.4/lib/libglfw.3.4.dylib; sourceTree = "<group>"; };
 		281696772C301C3300B34ABB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		281696792C305EB700B34ABB /* OpenGL Learning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL Learning.entitlements"; sourceTree = "<group>"; };
 		2816967A2C30F66800B34ABB /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../opt/homebrew/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		286548F32C32D2C200EDDC75 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		286548F42C32D2C200EDDC75 /* Basic.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Basic.shader; path = "OpenGL Learning/resource/shaders/Basic.shader"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				281696792C305EB700B34ABB /* OpenGL Learning.entitlements */,
-				2816966D2C301C0C00B34ABB /* main.cpp */,
+				2816967F2C31894B00B34ABB /* src */,
+				281696812C31896A00B34ABB /* resource */,
+				281696802C31895A00B34ABB /* sys */,
 			);
 			path = "OpenGL Learning";
 			sourceTree = "<group>";
@@ -82,6 +85,37 @@
 				281696752C301C2D00B34ABB /* libglfw.3.4.dylib */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2816967F2C31894B00B34ABB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				286548F32C32D2C200EDDC75 /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		281696802C31895A00B34ABB /* sys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sys;
+			sourceTree = "<group>";
+		};
+		281696812C31896A00B34ABB /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				281696822C31897900B34ABB /* shaders */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		281696822C31897900B34ABB /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				286548F42C32D2C200EDDC75 /* Basic.shader */,
+			);
+			path = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2816966E2C301C0C00B34ABB /* main.cpp in Sources */,
+				286548F52C32D2C200EDDC75 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
