@@ -160,20 +160,33 @@ int main(void) {
     }
     
     float positions[] = {
-        -0.5f, -0.5f,//bottom left
-        0.0f,  0.5f, //top
-        0.5f, -0.5f //bottom right
+        -0.5f, -0.5f,
+        0.5f,  -0.5f,
+        0.5f,   0.5f,
+        -0.5f,   0.5f,
     };
     
-    unsigned int VBO, VAO;
+    unsigned int indeces[] {
+        0,1,2,
+        2,3,0,
+    };
+    
+    unsigned int VBO, VAO, IBO;
     
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
+    glGenBuffers(1, &IBO);
     
+    //Vertices array biding VAO
     glBindVertexArray(VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(positions), positions, GL_STATIC_DRAW);
     
+    //Verdices Buffer binding VBO
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, 6 * 2 *sizeof(float), positions, GL_STATIC_DRAW);
+    
+    //Indeces binding IBO
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 *sizeof(unsigned int), indeces, GL_STATIC_DRAW);
     
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);
     glEnableVertexAttribArray(0);
@@ -185,15 +198,7 @@ int main(void) {
     glBindVertexArray(0);
   
     //create the Source code of vetex and fragment using file
-    #warning "Change to relative path"
-    ShaderProgramSource source = ParseShader("/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning/resource/shaders/Basic.shader");
-    
-    std::cout << "Vertex" << std::endl;
-    std::cout << source.VertexSoucer << std::endl;
-    
-    std::cout << "Fragement" << std::endl;
-    std::cout << source.FragmentSource << std::endl;
-    
+    ShaderProgramSource source = ParseShader("resource/shaders/Basic.shader");
     
     unsigned int shader = CreateShader(source.VertexSoucer, source.FragmentSource);
     glUseProgram(shader);
@@ -204,7 +209,7 @@ int main(void) {
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT);
         
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
         
         glfwSwapBuffers(window);
         glfwPollEvents();

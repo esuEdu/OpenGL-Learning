@@ -1,0 +1,58 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "dfcfd89dd7363872f353d5089f5ce5af6bf67c9d444fe0ef8fdcc848e190b242"
+    }
+  ],
+  "containerPath" : "/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.5",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning/OpenGL_Learning-ashgtauqiecmkafxhidnhdhpldqc/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning/OpenGL_Learning-ashgtauqiecmkafxhidnhdhpldqc/Build/Products",
+      "derivedDataPath" : "/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning",
+      "indexDataStoreFolderPath" : "/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning/OpenGL_Learning-ashgtauqiecmkafxhidnhdhpldqc/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning/OpenGL_Learning-ashgtauqiecmkafxhidnhdhpldqc/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/eduardovieira/Documents/GitHub/OpenGL-Learning/OpenGL Learning/OpenGL Learning/OpenGL_Learning-ashgtauqiecmkafxhidnhdhpldqc/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

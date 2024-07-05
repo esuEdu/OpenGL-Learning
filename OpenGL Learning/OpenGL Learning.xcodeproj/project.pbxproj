@@ -69,7 +69,6 @@
 		2816966C2C301C0C00B34ABB /* OpenGL Learning */ = {
 			isa = PBXGroup;
 			children = (
-				281696792C305EB700B34ABB /* OpenGL Learning.entitlements */,
 				2816967F2C31894B00B34ABB /* src */,
 				281696812C31896A00B34ABB /* resource */,
 				281696802C31895A00B34ABB /* sys */,
@@ -98,6 +97,7 @@
 		281696802C31895A00B34ABB /* sys */ = {
 			isa = PBXGroup;
 			children = (
+				281696792C305EB700B34ABB /* OpenGL Learning.entitlements */,
 			);
 			path = sys;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 		281696722C301C0C00B34ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "OpenGL Learning/OpenGL Learning.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenGL Learning/sys/OpenGL Learning.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVGXRR5RRA;
@@ -321,7 +321,7 @@
 		281696732C301C0C00B34ABB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "OpenGL Learning/OpenGL Learning.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenGL Learning/sys/OpenGL Learning.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVGXRR5RRA;

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>0A38AD99-6550-41DC-A6BF-776D44040EF6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0A38AD99-6550-41DC-A6BF-776D44040EF6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554861.85302401</real>
+			<key>timeStoppedRecording</key>
+			<real>741554862.45197499</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>0A38AD99-6550-41DC-A6BF-776D44040EF6</string>
+		</dict>
+		<key>52178498-C8AB-4A58-84FD-4E2B6155FD5B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>52178498-C8AB-4A58-84FD-4E2B6155FD5B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554825.44703102</real>
+			<key>timeStoppedRecording</key>
+			<real>741554825.94550204</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>52178498-C8AB-4A58-84FD-4E2B6155FD5B</string>
+		</dict>
+		<key>57E0B38E-86C9-4506-BE95-1A9436EE56EB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>57E0B38E-86C9-4506-BE95-1A9436EE56EB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554667.11919999</real>
+			<key>timeStoppedRecording</key>
+			<real>741554668.441769</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>57E0B38E-86C9-4506-BE95-1A9436EE56EB</string>
+		</dict>
+		<key>767CB7F9-A4FB-4E99-9FA6-EF7D3C407C55</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>767CB7F9-A4FB-4E99-9FA6-EF7D3C407C55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554831.334409</real>
+			<key>timeStoppedRecording</key>
+			<real>741554831.988168</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>767CB7F9-A4FB-4E99-9FA6-EF7D3C407C55</string>
+		</dict>
+		<key>7CF885EE-C158-4FDA-88FA-0459C1B3CDE1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7CF885EE-C158-4FDA-88FA-0459C1B3CDE1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554980.513708</real>
+			<key>timeStoppedRecording</key>
+			<real>741554981.08015096</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>7CF885EE-C158-4FDA-88FA-0459C1B3CDE1</string>
+		</dict>
+		<key>98C83B2D-A965-4E8B-A1F5-E01E289C9750</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>98C83B2D-A965-4E8B-A1F5-E01E289C9750.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554858.99405706</real>
+			<key>timeStoppedRecording</key>
+			<real>741554859.49130297</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>98C83B2D-A965-4E8B-A1F5-E01E289C9750</string>
+		</dict>
+		<key>A08D0951-E61E-4E29-8A04-AA581D6A1184</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A08D0951-E61E-4E29-8A04-AA581D6A1184.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554974.544824</real>
+			<key>timeStoppedRecording</key>
+			<real>741554975.12611794</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>A08D0951-E61E-4E29-8A04-AA581D6A1184</string>
+		</dict>
+		<key>ACC229AB-472F-469C-9626-437762593D32</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ACC229AB-472F-469C-9626-437762593D32.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741548333.00155902</real>
+			<key>timeStoppedRecording</key>
+			<real>741548333.64416206</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>ACC229AB-472F-469C-9626-437762593D32</string>
+		</dict>
+		<key>B58E01B4-F13A-4FD3-8378-0615CE5F94F1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B58E01B4-F13A-4FD3-8378-0615CE5F94F1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554736.286394</real>
+			<key>timeStoppedRecording</key>
+			<real>741554736.87803304</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>B58E01B4-F13A-4FD3-8378-0615CE5F94F1</string>
+		</dict>
+		<key>CA7ED4BB-361A-4B2A-9F3F-586A3844B5EB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CA7ED4BB-361A-4B2A-9F3F-586A3844B5EB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OpenGL Learning project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OpenGL Learning</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build OpenGL Learning</string>
+			<key>timeStartedRecording</key>
+			<real>741554900.76529396</real>
+			<key>timeStoppedRecording</key>
+			<real>741554903.24779999</real>
+			<key>title</key>
+			<string>Build OpenGL Learning</string>
+			<key>uniqueIdentifier</key>
+			<string>CA7ED4BB-361A-4B2A-9F3F-586A3844B5EB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
